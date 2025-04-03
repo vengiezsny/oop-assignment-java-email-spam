@@ -1,0 +1,201 @@
+Subject Length,Urgent Words,Sender Domain,Attachments,Links,Label
+Medium,No,Trusted,No,Few,Not Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Long,Yes,Unknown,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,Yes,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Unknown,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,No,Many,Spam
+Long,No,Unknown,Yes,Few,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Unknown,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Suspicious,No,Few,Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Long,No,Unknown,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,Yes,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Suspicious,No,Many,Spam
+Short,Yes,Trusted,No,Few,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,None,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Long,No,Unknown,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,Yes,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Suspicious,No,Many,Spam
+Short,Yes,Trusted,No,Few,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,None,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Long,No,Unknown,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,Yes,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Suspicious,No,Many,Spam
+Short,Yes,Trusted,No,Few,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,None,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Long,No,Unknown,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,Yes,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Suspicious,No,Many,Spam
+Short,Yes,Trusted,No,Few,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,None,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Long,No,Unknown,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,Yes,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Suspicious,No,Many,Spam
+Short,Yes,Trusted,No,Few,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,None,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Long,No,Unknown,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Unknown,No,None,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,Yes,Suspicious,Yes,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Trusted,No,Few,Not Spam
+Long,No,Unknown,No,Few,Not Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,Yes,Suspicious,Yes,Many,Spam
+Long,No,Trusted,No,None,Not Spam
+Short,Yes,Suspicious,No,Many,Spam
+Medium,No,Unknown,No,Few,Not Spam
+Long,Yes,Suspicious,No,Many,Spam
+Short,No,Trusted,No,None,Not Spam
+Medium,No,Trusted,Yes,Few,Not Spam
+Medium,No,Trusted,No,Few,Not Spam
+Short,Yes,Trusted,No,Few,Not Spam
