@@ -1,0 +1,115 @@
+# Email Spam Predictor
+
+## Project Overview
+Email Spam Predictor is a Java application that uses a supervised machine learning approach to predict whether an email is spam or not based on several key features. The application implements a naive Bayes classifier trained on email characteristics data.
+
+## Dataset Frequency Table
+The application uses a dataset of 200 email samples with the following distribution:
+
+| Subject Length | Urgent Words | Sender Domain | Attachments | Links | Not Spam | Spam | Total |
+|---------------|-------------|--------------|------------|-------|----------|------|-------|
+| Long | No | Suspicious | No | Many | 0 | 5 | 5 |
+| Long | No | Trusted | No | None | 14 | 0 | 14 |
+| Long | No | Unknown | No | Few | 8 | 0 | 8 |
+| Long | No | Unknown | No | None | 14 | 0 | 14 |
+| Long | No | Unknown | Yes | Few | 1 | 0 | 1 |
+| Long | Yes | Suspicious | No | Many | 0 | 15 | 15 |
+| Long | Yes | Suspicious | Yes | Many | 0 | 6 | 6 |
+| Long | Yes | Unknown | No | Many | 0 | 2 | 2 |
+| Medium | No | Suspicious | No | Few | 0 | 1 | 1 |
+| Medium | No | Trusted | No | Few | 23 | 0 | 23 |
+| Medium | No | Trusted | Yes | Few | 9 | 0 | 9 |
+| Medium | No | Unknown | No | Few | 20 | 0 | 20 |
+| Medium | Yes | Suspicious | No | Many | 0 | 1 | 1 |
+| Medium | Yes | Suspicious | Yes | Many | 0 | 14 | 14 |
+| Short | No | Trusted | No | None | 29 | 0 | 29 |
+| Short | Yes | Suspicious | No | Many | 0 | 22 | 22 |
+| Short | Yes | Suspicious | Yes | Many | 0 | 10 | 10 |
+| Short | Yes | Trusted | No | Few | 6 | 0 | 6 |
+| **Total** | | | | | **124** | **76** | **200** |
+
+
+I will have teh data set come with this on the csv file.
+
+## Features
+The model uses the following features to predict spam:
+1. **Subject Length** - Short, Medium, or Long
+2. **Urgent Words** - Yes or No (presence of urgent/attention-grabbing words)
+3. **Sender Domain** - Trusted, Unknown, or Suspicious
+4. **Attachments** - Yes or No (presence of attachments)
+5. **Links** - None, Few, or Many (number of links in the email)
+
+## Java Classes
+
+### EmailSpamPredictor.java
+Main class that implements the GUI and prediction functionality. This class:
+- Creates the user interface with tabs for prediction, data addition, and accuracy testing
+- Loads and manages the dataset
+- Implements the prediction algorithm
+- Handles user interactions and updates the UI accordingly
+
+## Functionality Included
+
+### Level 1: Basic GUI and Prediction
+- User-friendly interface that allows input of feature values through dropdown menus
+- Prediction button that calculates and displays the likelihood of an email being spam
+- Visual representation of prediction probability using a progress bar
+- Color-coded results (red for spam, green for non-spam)
+
+### Level 2: Dynamic Classifier Training
+- Data loading from CSV file to train the classifier
+- Ability to retrain the classifier with the "Train Classifier" button
+- Automatic generation of sample data if CSV file is not found or invalid
+
+### Level 3: Data Addition
+- Dedicated tab for adding new data points to the training set
+- Form interface to enter feature values and known label (spam/not spam)
+- Auto-update of the frequency table when new data is added
+
+### Level 4: Accuracy Testing
+- Testing functionality that evaluates classifier performance
+- Stratified training/testing split (150 training samples, 50 testing samples)
+- Calculation and display of key metrics:
+  - Accuracy (percentage of correct predictions)
+  - Precision (true positives / (true positives + false positives))
+  - Recall (true positives / (true positives + false negatives))
+  - Confusion matrix (true positives, false positives, true negatives, false negatives)
+- Detailed results showing predictions for each test sample
+
+## Future Enhancements
+If more time were available, I would add the following features:
+
+1. **More Sophisticated Prediction Algorithm**
+   - Implement a more advanced algorithm like logistic regression or random forest
+   - Add weighting to features based on their importance
+
+2. **Enhanced Data Visualization**
+   - Charts and graphs to visualize feature distributions
+   - ROC curve and AUC metric for classifier evaluation
+
+3. **Email Content Analysis**
+   - Text processing to extract features directly from email content
+   - Word frequency analysis to identify spam-related terms
+
+4. **Cross-Validation**
+   - K-fold cross-validation for more robust accuracy testing
+   - Hyperparameter tuning for better classifier performance
+
+5. **Data Management**
+   - Ability to save and load different datasets
+   - Export prediction results to CSV or PDF
+
+6. **User Interface Improvements**
+   - Custom styling and themes
+   - Responsive design for different screen sizes
+   - Keyboard shortcuts for common actions
+
+7. **Real-time Integration**
+   - Connection to email clients to analyze real emails
+   - API for integration with other applications
+
+## How to Run
+1. Ensure you have Java installed on your system
+2. Place the EmailSpamfrequency.csv file in the same directory as the application
+3. Compile the Java file: `javac EmailSpamPredictor.java`
+4. Run the application: `java EmailSpamPredictor`
