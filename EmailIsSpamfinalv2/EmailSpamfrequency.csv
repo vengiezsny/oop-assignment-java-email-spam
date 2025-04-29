@@ -1,0 +1,20 @@
+Subject_Length,Urgent_Words,Sender_Domain,Attachments,Links,Not Spam,Spam,All
+Long,No,Unknown,Yes,Few,1,0,1
+Medium,No,Trusted,No,Few,23,0,23
+Medium,No,Trusted,Yes,Few,9,0,9
+Medium,Yes,Suspicious,Yes,Many,0,14,14
+Medium,No,Unknown,No,Few,20,0,20
+Long,No,Unknown,No,Few,8,0,8
+Medium,No,Suspicious,No,Few,0,1,1
+Short,Yes,Trusted,No,Few,6,0,6
+Long,Yes,Suspicious,Yes,Many,0,6,6
+Long,No,Unknown,No,None,14,0,14
+Short,Yes,Suspicious,Yes,Many,0,10,10
+Long,No,Trusted,No,None,14,0,14
+Long,Yes,Unknown,No,Many,0,2,2
+Short,Yes,Suspicious,No,Many,0,22,22
+Medium,Yes,Suspicious,No,Many,0,1,1
+Short,No,Trusted,No,None,29,0,29
+Long,No,Suspicious,No,Many,0,5,5
+Long,Yes,Suspicious,No,Many,0,15,15
+All,,,,,,124,76,200
